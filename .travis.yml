@@ -48,8 +48,8 @@ cache:
     - $HOME/android-ndk-linux
     - $HOME/android-sdk-linux
 
-notifications:
-    slack: buckbuild:TnJN80RxFaSAuCGswsnWLdoj
+#notifications:
+#    slack: buckbuild:TnJN80RxFaSAuCGswsnWLdoj
 
 script:
   - ./scripts/travisci_run.sh
